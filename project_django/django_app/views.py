@@ -10,3 +10,16 @@ def miEdad(request, edad):
 
 def index(request):
     return render(request, 'index.html')
+
+def alumnos(request):
+    return render(request, 'Alumnos.html')
+
+def buscar(request):
+    return render(request, 'Busqueda_Alumnos.html')
+
+def materia(request):
+    return render(request, 'Materias.html')
+
+def docente(request):
+    return render(request, 'Docentes.html')
+

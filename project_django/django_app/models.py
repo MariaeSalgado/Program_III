@@ -10,3 +10,9 @@ class materia(models.Model):
     codigo = models.CharField(max_length=2)
     nombre = models.CharField(max_length=65)
     uv = models.SmallIntegerField(max_length=1)
+
+
+class docente(models.Model):
+    codigo = models.CharField(max_length=2)
+    nombre = models.CharField(max_length=65)
+    uv = models.SmallIntegerField(max_length=1)
